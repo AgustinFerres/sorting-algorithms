@@ -1,0 +1,26 @@
+{
+  "name": "sorting-algorithms",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "benchmark": "npx tsx benchmark/benchmark.ts"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.3.12"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/styled-components": "^5.1.36",
+    "@vitejs/plugin-react": "^4.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.0"
+  }
+}
